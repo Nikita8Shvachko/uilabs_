@@ -1,0 +1,44 @@
+/* Основной контейнер формы */
+.form_container {
+  width: 50%;
+  height: fit-content;
+  padding: 5% 5% 0 5%;
+  margin-top: 2%;
+  border: 1px solid #222222;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+/* Стили для подчеркивания текста */
+.underlined_text {
+  margin-left: 0;
+  align-items: center;
+  color: #033169;
+  text-decoration: underline;
+  text-decoration-color: #76ead5;
+  text-transform: uppercase;
+}
+
+/* Свойства цкласса при наведении */
+.underlined_text:hover {
+  cursor: pointer;
+  color: #76ead5; /* Можно добавить эффект при наведении, чтобы текст изменял цвет */
+}
+
+/* Адаптация для мобильных устройств */
+@media screen and (max-width: 768px) {
+  .form_container {
+    width: 80%; /* Увеличиваем ширину контейнера для мобильных экранов */
+    padding: 10%; /* Увеличиваем отступы */
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .form_container {
+    width: 90%; /* Еще больше увеличиваем ширину для маленьких экранов */
+    padding: 15%; /* Еще большие отступы */
+  }
+}
