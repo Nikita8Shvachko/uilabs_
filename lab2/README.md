@@ -3,6 +3,7 @@
 A simple Flask-based backend application to fetch weather data using the [OpenWeather](https://openweathermap.org/api) API. This application includes
 endpoints to get current weather, a weather forecast, and a weather summary for a specified city.
 
+[Postman](https://www.postman.com/security-participant-51247175/uilabs/collection/z71dui8/weather-api?action=share&creator=39826647)
 ---
 
 ## Features
