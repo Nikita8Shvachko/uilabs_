@@ -1,6 +1,6 @@
 # Weather API Application
 
-A simple Flask-based backend application to fetch weather data using the OpenWeather API. This application includes
+A simple Flask-based backend application to fetch weather data using the [OpenWeather](https://openweathermap.org/api) API. This application includes
 endpoints to get current weather, a weather forecast, and a weather summary for a specified city.
 
 ---
